@@ -185,7 +185,7 @@
 #define AP_BEHAVIOR_BUTTON_ONLY           3     //Only when button pressed for 6 sec
 #define AP_BEHAVIOR_TEMPORARY             4     //Open AP when no connection after boot but only temporary
 #ifndef WLED_AP_TIMEOUT
-  #define WLED_AP_TIMEOUT            300000     //Temporary AP timeout
+  #define WLED_AP_TIMEOUT             30000     //Temporary AP timeout (30sec)
 #endif
 
 //Notifier callMode
